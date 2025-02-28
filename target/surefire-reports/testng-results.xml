@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-25T17:48:51 IST" name="Surefire suite" finished-at="2025-01-25T17:49:29 IST" duration-ms="37944">
+    <groups>
+    </groups>
+    <test started-at="2025-01-25T17:48:51 IST" name="Surefire test" finished-at="2025-01-25T17:49:29 IST" duration-ms="37944">
+      <class name="tests.OrangeHRMPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.OrangeHRMPageTest@750e2b97]" started-at="2025-01-25T17:49:05 IST" name="setup" finished-at="2025-01-25T17:49:06 IST" duration-ms="1392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String,boolean)[pri:0, instance:tests.OrangeHRMPageTest@750e2b97]" started-at="2025-01-25T17:49:06 IST" name="testLogin" data-provider="loginData" finished-at="2025-01-25T17:49:16 IST" duration-ms="9570" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String,boolean)[pri:0, instance:tests.OrangeHRMPageTest@750e2b97]" started-at="2025-01-25T17:49:16 IST" name="testLogin" data-provider="loginData" finished-at="2025-01-25T17:49:29 IST" duration-ms="13573" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[InvalidUser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[invalidPass]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.OrangeHRMPageTest@750e2b97]" started-at="2025-01-25T17:49:29 IST" name="tearDown" finished-at="2025-01-25T17:49:29 IST" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.OrangeHRMPageTest -->
+      <class name="tests.ErailTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ErailTest@71ba6d4e]" started-at="2025-01-25T17:48:51 IST" name="setup" finished-at="2025-01-25T17:48:54 IST" duration-ms="2436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testErailStationSelection()[pri:0, instance:tests.ErailTest@71ba6d4e]" started-at="2025-01-25T17:48:54 IST" name="testErailStationSelection" finished-at="2025-01-25T17:49:02 IST" duration-ms="7642" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testErailStationSelection -->
+        <test-method signature="testSelectTheDateFromCalendar()[pri:0, instance:tests.ErailTest@71ba6d4e]" started-at="2025-01-25T17:49:02 IST" name="testSelectTheDateFromCalendar" finished-at="2025-01-25T17:49:04 IST" duration-ms="2006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectTheDateFromCalendar -->
+        <test-method signature="testcompareTwoExcels()[pri:0, instance:tests.ErailTest@71ba6d4e]" started-at="2025-01-25T17:49:04 IST" name="testcompareTwoExcels" finished-at="2025-01-25T17:49:04 IST" duration-ms="679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcompareTwoExcels -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ErailTest@71ba6d4e]" started-at="2025-01-25T17:49:04 IST" name="tearDown" finished-at="2025-01-25T17:49:05 IST" duration-ms="502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ErailTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
